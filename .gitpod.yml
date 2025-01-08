@@ -6,6 +6,6 @@
 
 tasks:
   - init: pip install -r requirements.txt
-    command: uvicorn api_articles:app --reload
+    command: cd src && uvicorn api_articles:app --reload
 
 
